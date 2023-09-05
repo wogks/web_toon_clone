@@ -3,7 +3,6 @@ import 'package:webt/screens/home_screen.dart';
 import 'package:webt/services/api_service.dart';
 
 void main() {
-  ApiService().getTodaysToons();
   runApp(const MyApp());
 }
 
