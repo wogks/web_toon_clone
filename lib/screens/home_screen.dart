@@ -33,7 +33,9 @@ class HomeScreen extends StatelessWidget {
               ],
             );
           }
-          return Text('loading');
+          return const Center(
+            child: CircularProgressIndicator.adaptive(),
+          );
         },
       ),
     );

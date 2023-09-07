@@ -22,7 +22,7 @@ class Episode extends StatelessWidget {
     return GestureDetector(
       onTap: onButtonTap,
       child: Container(
-        margin: EdgeInsets.only(bottom: 10),
+        margin: const EdgeInsets.only(bottom: 10),
         decoration: BoxDecoration(
           color: Colors.green.shade300,
           borderRadius: BorderRadius.circular(20),
@@ -34,7 +34,7 @@ class Episode extends StatelessWidget {
             children: [
               Text(
                 episode.title,
-                style: TextStyle(color: Colors.white),
+                style: const TextStyle(color: Colors.white),
               ),
               const Icon(
                 Icons.chevron_right_rounded,
